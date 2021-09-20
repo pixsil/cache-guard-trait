@@ -44,13 +44,13 @@ if ($this->cache(__FUNCTION__, func_get_args())) {
 }
 ```
 
-The snipped checks if it has an cached version in the cache array of the trait. This is based on the function name and the parameters. If there isnt a cached version it will automaticly run the function and stores the output in the cache array.
+The snipped checks if it has a cached version in the cache array of the trait. This is based on the function name and the parameters. If there isn't a cached version, it will automatically run the function and stores the output in the cache array.
 
 
 
 ## Example
 
-An full Laravel example. Not realy an heavy function, but you get the point.
+A full Laravel example. Not really a heavy function, but you get the point.
 
 ```php
 <?php
