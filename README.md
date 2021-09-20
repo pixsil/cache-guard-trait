@@ -62,7 +62,7 @@ A full Laravel example. Not really a heavy function, but you get the point.
 
     class Car extends Model
     {
-        protected function getColorDescription()
+        public function getColorDescription()
         {
           // cache guard
           if ($this->cache(__FUNCTION__, func_get_args())) {
