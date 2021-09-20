@@ -1,6 +1,6 @@
 # PHP Cache Guard Trait
 
-## Features / What is it?
+## What is it?
 
 This is a small piece of code what implements caching functionality to your application.
 
